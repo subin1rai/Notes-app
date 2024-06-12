@@ -1,5 +1,5 @@
 import express from 'express';
-import { create, deletes, getAll, getOne, update  } from '../controller/nodesController';
+import { create, deletes, getAll, getOne, update  } from '../controller/nodesController.js';
 
 const route = express.Router();
 
